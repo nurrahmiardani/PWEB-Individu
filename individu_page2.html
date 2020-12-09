@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="indscss.css">
+
+
+<head>
+    <title>Hasil Pekerjaan</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li class="logo"><img src="Slide1.jpg"></li>
+            <li class="tugas">TUGAS</li>
+            <li>NILAI</li>
+            <li>PROFIL</li>
+            <li class="logout">LOGOUT</li>
+        </ul>
+    </div>
+
+    <div class="soal">
+        <ul>
+            <li class="ikan"><img src="Group 4.png"></li>
+            <li class="tambah"><img src="add.png"></li>
+            <li class="ikan2"><img src="Group 3.png"></li>
+        </ul>
+    </div>
+
+    <div class="jawab">
+        <ul>
+            <li class="sama"><img src="equals-sign.png"></li>
+            <li class="ikan3"><img src="Group 7.png"></li>
+        </ul>
+        <div class="isian">
+            <form id="nilai" name="formisi">
+                <label id="bintang">Nilai</label>
+                <input type="text" placeholder="Masukkan Nilai" id="input" class="inputan"><br><br>
+                <button onclick="nambah()" type="button" id="tombol">TAMBAHKAN</button><br><br>
+                <label id="komen">Komentar</label>
+                <input type="text" id="input2" placeholder="Masukkan Komentar untuk ananda" class="inputan2">
+
+                <script src="indsjava.js"></script>
+            </form> <br><br><br>
+        </div>
+        <div>
+            <h3 class="data">NILAI DAN KOMENTAR DARI GURU</h3>
+            <table id="tabelhasil" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>NILAI</th>
+                        <th>KOMENTAR</th>
+                    </tr>
+                </thead>
+            </table> <br><br><br>
+        </div>
+    </div>
+
+</body>
+
+</html>

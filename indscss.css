@@ -1,0 +1,219 @@
+* {
+    font-family: sans-serif;
+}
+
+.menu {
+    margin-top: -1.4%;
+    position: fixed;
+    z-index: 99999999999;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 70px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+}
+
+.logo img {
+    margin-top: -10%;
+    margin-left: -75%;
+    width: 150%;
+}
+
+.logout {
+    color: #000000;
+    border: 2px solid transparent;
+    padding: 7px 15px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #F26445;
+    box-shadow: 0px 0px 20px #b9b9b9
+}
+
+.logout:hover {
+    color: #ffffff;
+    transition: color.6s;
+}
+
+.tugas p {
+    color: #FA8072;
+    font-size: 44px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nama {
+    margin-top: 5%;
+    font-weight: bold;
+    margin-left: 7%;
+    font-size: 24px;
+}
+
+.kelas {
+    font-weight: bold;
+    margin-left: 12%;
+    font-size: 24px;
+}
+
+.lihat {
+    margin-top: -7%;
+}
+
+.lihat button {
+    border: 2px solid transparent;
+    height: 45px;
+    border-radius: 7px;
+    padding: 10px 0px;
+    background-color: #FA8072;
+    box-shadow: 0px 0px 20px #b9b9b9;
+    width: 22%;
+    margin: 7%;
+    cursor: pointer;
+}
+
+.hasil:hover {
+    color: red;
+    transition: color.6s;
+}
+
+.hasil {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.gambar {
+    margin-top: -28%;
+    margin-left: 52%;
+    width: 40%;
+}
+
+.soal {
+    margin-top: 5%;
+    position: absolute;
+    z-index: 99;
+}
+
+.soal ul {
+    display: inline-flex;
+    margin: 50px 30px;
+}
+
+.soal ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 70px;
+    font-weight: 500;
+}
+
+.ikan img {
+    width: 83%;
+}
+
+.ikan2 img {
+    width: 83%;
+    margin-left: 5%;
+}
+
+.tambah img {
+    width: 55px;
+    margin-top: 25%;
+    margin-left: -75%;
+}
+
+.jawab {
+    margin-top: 17%;
+    position: absolute;
+    z-index: 99;
+}
+
+.jawab ul {
+    display: inline-flex;
+    margin: 50px 30px;
+}
+
+.jawab ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 70px;
+    font-weight: 500;
+}
+
+.sama img {
+    width: 50px;
+    margin-top: 150%;
+}
+
+.ikan3 img {
+    width: 75%;
+    margin-left: 3%;
+}
+
+.isian {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.inputan {
+    margin-left: 9%;
+    width: 45%;
+    height: 35px;
+    box-shadow: 0px 0px 20px #b9b9b9;
+}
+
+.inputan2 {
+    margin-left: 5%;
+    width: 45%;
+    height: 35px;
+    box-shadow: 0px 0px 20px #b9b9b9;
+}
+
+#tabelhasil {
+    margin-top: 1%;
+    margin-left: 16%;
+    width: 75%;
+}
+
+#tombol {
+    background-color: #F26445;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 7px 50px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -15%;
+    margin-left: 70%;
+    text-decoration: none;
+}
+
+#tombol:hover {
+    background-color: #d42e1b;
+    transition: color .6s;
+}
+
+#tabelhasil th {
+    background-color: #FA8072;
+    border: 0.1px solid black;
+    padding: 5px 15px;
+}
+
+td {
+    border: 0.1px solid black;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.data {
+    margin-left: 40%;
+}
